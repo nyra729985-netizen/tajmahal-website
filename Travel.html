@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Taj Mahal — Everything You Need to Know</title>
+<style>
+:root{--accent:#7b5cff;--bg:#f8fafc;--card:#ffffff;--muted:#6b7280}
+*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial;line-height:1.5;margin:0;background:var(--bg);color:#0f172a}
+header{background:linear-gradient(120deg,#fff 0%,#f1f5f9 40%);padding:2rem 1rem;border-bottom:1px solid #e6edf3}
+.container{max-width:1000px;margin:0 auto}
+.hero{display:grid;grid-template-columns:1fr;gap:1rem;align-items:center}
+.hero-inner{display:flex;flex-direction:column;gap:.75rem}
+h1{font-size:1.8rem;margin:0}
+p.lead{margin:0;color:var(--muted)}
+.hero img{width:100%;height:330px;object-fit:cover;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.08)}
+
+main{padding:1.25rem}
+.grid{display:grid;grid-template-columns:1fr 360px;gap:1rem}
+.card{background:var(--card);padding:1rem;border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.04)}
+h2{margin-top:0}
+ul.facts{padding-left:1.1rem}
+li{margin:.55rem 0}
+.map{height:250px;border-radius:8px;overflow:hidden}
+footer{text-align:center;padding:1rem;color:var(--muted);font-size:.9rem}
+
+/* responsive */
+@media(min-width:900px){
+.hero{grid-template-columns:1fr 420px}
+.hero img{height:260px}
+}
+@media(max-width:880px){
+.grid{grid-template-columns:1fr}
+}
+.meta{color:var(--muted);font-size:.95rem}
+.tag{display:inline-block;background:rgba(123,92,255,0.12);color:var(--accent);padding:.25rem .5rem;border-radius:999px;font-weight:600;font-size:.85rem}
+</style>
+</head>
+<body>
+<header>
+<div class="container hero">
+<div class="hero-inner">
+<span class="tag">World Wonder</span>
+<h1>Taj Mahal</h1>
+<p class="lead">An ivory‑white marble mausoleum built in the 17th century by Mughal emperor Shah Jahan in memory of his wife Mumtaz Mahal.</p>
+<p class="meta">Location: Agra, Uttar Pradesh, India • Coordinates: 27.1750° N, 78.0419° E</p>
+</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg" alt="Taj Mahal" />
+</div>
+</header>
+
+<main class="container">
+<div class="grid">
+<section class="card">
+<h2>About the Taj Mahal</h2>
+<p>The Taj Mahal is a marble mausoleum complex on the banks of the Yamuna River in Agra, northern India. Construction began in 1631 and finished around 1653. It is widely regarded as a masterpiece of Mughal architecture, combining elements from Islamic, Persian, Ottoman Turkish, and Indian styles.</p>
+
+<h3>Five quick facts</h3>
+<ul class="facts">
+<li><strong>Built:</strong> 1631–1653 by Emperor Shah Jahan.</li>
+<li><strong>Purpose:</strong> Tomb for Mumtaz Mahal and later Shah Jahan himself.</li>
+<li><strong>Material:</strong> Mainly white Makrana marble with inlay work (semi-precious stones).</li>
+<li><strong>Location:</strong> Agra, Uttar Pradesh, India — on the right bank of the Yamuna River.</li>
+<li><strong>World Heritage:</strong> UNESCO World Heritage Site since 1983 and often called a symbol of love.</li>
+</ul>
+
+<h3>Architecture highlights</h3>
+<p>The complex includes the main tomb, a mosque, a guest house, formal gardens, and four minarets. The main dome reaches about 73 meters high and the building shows perfect symmetry and beautiful decorative calligraphy and pietra dura (stone inlay).</p>
+</section>
+
+<aside class="card">
+<h3>Where is it?</h3>
+<p class="meta">Agra, Uttar Pradesh, India</p>
+<div class="map">
+<!-- Embedded map centered on the Taj Mahal coordinates -->
+<iframe width="100%" height="100%" frameborder="0" style="border:0"
+src="https://www.google.com/maps?q=27.1750,78.0419&z=15&output=embed" allowfullscreen aria-hidden="false"></iframe>
+</div>
+
+<h3 style="margin-top:1rem">Visitor tips</h3>
+<ul>
+<li>Best time to visit: early morning at sunrise to avoid crowds and see the marble glow.</li>
+<li>Wear comfortable shoes — there is a lot of walking across gardens and platforms.</li>
+<li>Respect the site: it is both a monument and a grave — photography rules apply in some areas.</li>
+</ul>
+</aside>
+</div>
+
+<section style="margin-top:1rem" class="card">
+<h2>Short history timeline</h2>
+<ol>
+<li><strong>1631:</strong> Mumtaz Mahal dies in childbirth; Shah Jahan orders the mausoleum.</li>
+<li><strong>1632–1648:</strong> Main construction period; thousands of artisans worked on the site.</li>
+<li><strong>1653:</strong> Major construction generally completed (gardens and finishes continued).</li>
+<li><strong>1983:</strong> Declared a UNESCO World Heritage Site.</li>
+</ol>
+</section>
+</main>
+
+<footer>
+<div class="container">
+<small>Made with ❤️ — simple educational page about the Taj Mahal. Coordinates source: public records.</small>
+</div>
+</footer>
+</body>
+</html>
